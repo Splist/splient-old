@@ -1,0 +1,13 @@
+{
+  "name": "splistclient",
+  "version": "0.0.1",
+  "description": "Client for Splist, the simple easy to use chat service.",
+  "main": "src/index.js",
+  "repository": "https://github.com:Splist/splistclient.git",
+  "author": "Grey <chronomly@gmail.com>",
+  "license": "AGPLv3",
+  "private": false,
+  "devDependencies": {
+    "electron": "^6.0.1"
+  }
+}
