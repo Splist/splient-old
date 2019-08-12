@@ -5,9 +5,12 @@
   "main": "src/index.js",
   "repository": "https://github.com:Splist/splistclient.git",
   "author": "Grey <chronomly@gmail.com>",
-  "license": "AGPLv3",
+  "license": "AGPL-3.0",
   "private": false,
   "devDependencies": {
     "electron": "^6.0.1"
+  },
+  "scripts": {
+    "start": "cd src && electron ."
   }
 }
