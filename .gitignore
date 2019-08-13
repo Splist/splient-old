@@ -1,2 +1,4 @@
 ## Ignore the Singularity
 node_modules
+srca
+src/build
