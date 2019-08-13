@@ -8,7 +8,7 @@
   "license": "AGPL-3.0",
   "private": false,
   "devDependencies": {
-    "electron": "^6.0.1"
+    "electron": "^6.0.2"
   },
   "scripts": {
     "start": "cd src && electron ."
