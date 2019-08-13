@@ -2,20 +2,25 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kognise/water.css@latest/dist/dark.min.css">
-    <link rel="stylesheet" href="./loader.css">
+    <link rel="stylesheet" href="./dark.min.css">
+    <link rel="stylesheet" href="./index.css">
     <title>Splist</title>
     </head>
-    <body onload="spinnerTimeout()" style="margin:0;">
+    <body style="margin:0;">
+    <div id="chatbox">
+        <div id="chat-history">
+            
+            jdender: hello!
 
-    <div id="loader"></div>
-                
-    <div style="display:none;" id="content" class="animate-bottom">
-        <div id="app"></div>
+        </div>
+        <div id="message-box">
+            <form name="message" action="">
+                <input name="usermsg" type="text" id="usermsg" size="63" placeholder="Enter your message here"/>
+                <!-- <input name="submitmsg" type="submit"  id="submitmsg" value="Send" /> -->
+            </form>
+        </div>
     </div>
-                
-    <script src="./loader.js"></script>
-    <!-- You can also require other files to run in this process -->
+
     <script src="./renderer.js"></script>
     </body>
 </html>
