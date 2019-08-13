@@ -1,0 +1,30 @@
+{
+  "name": "splistclient",
+  "version": "0.0.1",
+  "description": "Client for Splist, the simple easy to use chat service.",
+  "main": "src/index.ts",
+  "repository": "https://github.com:Splist/splistclient.git",
+  "author": "Grey <chronomly@gmail.com>",
+  "license": "AGPL-3.0",
+  "private": false,
+  "devDependencies": {
+    "create-react-app": "^3.1.0",
+    "electron": "6.0.2"
+  },
+  "scripts": {
+    "start": "electron .",
+    "rstart": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "serve": "serve -s build"
+  },
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "prop-types": "^15.5.10",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-scripts": "^1.0.11",
+    "discord-rpc": "^3.0.2"
+  }
+}
