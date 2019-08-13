@@ -12,5 +12,8 @@
   },
   "scripts": {
     "start": "cd src && electron ."
+  },
+  "dependencies": {
+    "discord-rpc": "^3.0.2"
   }
 }
