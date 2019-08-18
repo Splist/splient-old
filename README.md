@@ -1,4 +1,5 @@
 # splistclient
+[![Build Status](https://travis-ci.org/Splist/splistclient.svg?branch=master)](https://travis-ci.org/Splist/splistclient)
 
 Electron app for Splist
 
