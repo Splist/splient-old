@@ -1,5 +1,5 @@
-#chatbox.message-box {
-    border: 100px;
-    position: absolute;
-    bottom: 0px;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
 }

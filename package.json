@@ -2,18 +2,37 @@
   "name": "splistclient",
   "version": "0.0.1",
   "description": "Client for Splist, the simple easy to use chat service.",
-  "main": "src/index.js",
+  "main": "electron/index.ts",
   "repository": "https://github.com:Splist/splistclient.git",
   "author": "Grey <chronomly@gmail.com>",
   "license": "AGPL-3.0",
   "private": false,
   "devDependencies": {
-    "electron": "^6.0.2"
+    "create-react-app": "^3.1.0",
+    "electron": "6.0.2",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.3",
+    "webpack-cli": "^3.3.7"
   },
   "scripts": {
-    "start": "cd src && electron ."
+    "start": "electron .",
+    "rstart": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "serve": "serve -s build",
+    "webp": "webpack"
   },
   "dependencies": {
-    "discord-rpc": "^3.0.2"
+    "@types/react": "^16.9.2",
+    "@types/react-sidebar": "^3.0.0",
+    "classnames": "^2.2.5",
+    "prop-types": "^15.5.10",
+    "react": "^16.5.0",
+    "react-dom": "^16.9.0",
+    "react-scripts": "^1.0.11",
+    "react-sidebar": "^3.0.2",
+    "ts-loader": "^6.0.4",
+    "webpack": "^4.39.2"
   }
 }
